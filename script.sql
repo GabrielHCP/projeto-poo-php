@@ -40,13 +40,20 @@ create table prontuario
 		references tratamento (cd_tratamento)
 );
 
-insert into especie (cd_especie, nm_especie) values (1, 'Cachorro');
-insert into especie (cd_especie, nm_especie) values (2, 'Gato');
-insert into especie (cd_especie, nm_especie) values (3, 'Coelho');
+insert into especie (cd_especie, nm_especie) values (1, 'Buldog');
+insert into especie (cd_especie, nm_especie) values (2, 'Dálmata');
+insert into especie (cd_especie, nm_especie) values (3, 'Tabby Listrado');
+insert into especie (cd_especie, nm_especie) values (4, 'Beagle');
+insert into especie (cd_especie, nm_especie) values (5, 'Californiano');
+insert into especie (cd_especie, nm_especie) values (6, 'Fox Paulistinha');
 
-insert into animal values (1, 'Meg', 1);
-insert into animal values (2, 'Luna', 2);
-insert into animal values (3, 'Bolinha', 3);
+insert into animal values (1, 'Brutus', 1);
+insert into animal values (2, 'Flocos', 2);
+insert into animal values (3, 'Luna', 3);
+insert into animal values (4, 'Meg', 4);
+insert into animal values (5, 'Rico', 5);
+insert into animal values (6, 'Tico', 6);
+
 
 insert into tratamento values (101, 'Vacina Antirrábica', 'Proteção conta raiva');
 insert into tratamento values (102, 'Vermifugação', 'Controle de vermes intestinais');
